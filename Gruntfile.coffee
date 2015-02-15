@@ -97,7 +97,7 @@ module.exports = (grunt) ->
                 sourceMap: false
             pub:
                 files:
-                    "<%= path.dist %>/app.js": "<%= path.dist %>/app.js"
+                    "<%= dir.dist %>/app.js": "<%= dir.dist %>/app.js"
 
     # https://github.com/mllrsohn/grunt-node-webkit-builder
     # https://github.com/mllrsohn/node-webkit-builder
